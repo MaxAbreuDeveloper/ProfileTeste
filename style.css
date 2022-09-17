@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Blaka+Ink&family=Montserrat:wght@300;400&family=Nabla&family=Reem+Kufi+Ink&family=Roboto:wght@400;500&display=swap");
+
+body {
+  background: linear-gradient(236.85deg, black 30%, blue 96.03%);
+
+  font-family: roboto;
+}
+
+.container {
+  background: #292929;
+  margin: 60px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px #0e1d2f;
+  color: white;
+  padding: 50px;
+}
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 10px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.title {
+  margin-left: 16px;
+}
+
+.title h1 {
+  font-weight: 500;
+  font-size: 36px;
+}
+.title h3 {
+  font-weight: 400;
+  font-size: 25px;
+}
+.tema button {
+  align-self: flex-end;
+  font-size: 20px;
+  padding: 8px 16px;
+  border-radius: 20px;
+  background: grey;
+  color: white;
+  border: 2px solid #f7f7f7f;
+}
+.projetos {
+  background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
+
+  display: flex;
+  flex-direction: column;
+  font-family: roboto;
+  margin-top: 32px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px #0e1d2f;
+  color: white;
+  padding: 32px;
+}
+
+.projetos-title {
+  list-style: none;
+  font-weight: 500;
+  font-size: 36px;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 50px;
+}
+.projetos-item a {
+  color: black;
+  text-decoration: none;
+}
+
+.dark {
+  background: linear-gradient(230.65deg, #e9f2fd 27.49%, #c8d2df 83.19%);
+}
+
+.dark .container {
+  background: rgb(181, 199, 214);
+  color: black;
+}
+.dark .tema button {
+  background: aliceblue;
+  color: black;
+  border: 2px solid #292929;
+}
